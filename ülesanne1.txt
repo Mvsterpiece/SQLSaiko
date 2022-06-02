@@ -8,4 +8,4 @@ Piirkond
    join Department
     on EmployeeIndex.DeptNameId = Department.Id
 3. Как переключить ветку в GIT CMD 
-  Git checkout 
+  Git checkout --
