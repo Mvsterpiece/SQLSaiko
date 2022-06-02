@@ -1,11 +1,9 @@
-﻿1. Обнови базу таблицу, добавив в нее поле "Регион" (перевести на эстонский)
-Ответ: Värskendage andmebaasi tabelit, lisades sellele välja "Piirkond".
+1. Обнови базу таблицу, добавив в нее поле "Регион" (перевести на эстонский)
 2. Заполни пропуски.
     create view vEmployeesByDepartmentIndex
     as
-    select EmployeeIndex.Id, Name, Salary, Gender, DepartmentName
+    ___ EmployeeIndex.Id, Name, Salary, Gender, DepartmentName
     from EmployeeIndex
-    join Department
-    on EmployeeIndex.DeptNameId = Department.Id
+    ___ Department
+    on EmployeeIndex.DeptNameId = ___
 3. Как переключить ветку в GIT CMD
-Ответ: git checkout (название ветки)
