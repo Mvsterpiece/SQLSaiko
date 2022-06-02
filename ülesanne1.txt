@@ -1,0 +1,9 @@
+1. Обнови базу таблицу, добавив в нее поле "Регион" (перевести на эстонский)
+2. Заполни пропуски.
+    create view vEmployeesByDepartmentIndex
+    as
+    _____ EmployeeIndex.Id, Name, Salary, Gender, DepartmentName
+    from EmployeeIndex
+    ___ Department
+    on EmployeeIndex.DeptNameId = ____
+3. Как переключить ветку в GIT CMD
